@@ -15,6 +15,6 @@ A tiny unit test
 
 - **xxxx\_1.rb** is the code edited by ashbb for this unit test.
 
-**USAGE (example)*
+**USAGE (example)**
 
 C:\tmp\RPCFN8\01RichardColley>ruby test_transformer.rb > unit_test_result.txt
