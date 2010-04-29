@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<people>
+  <person>
+    <first>Winnie</first>
+    <last>the Pooh</last>
+  </person>
+  <person>
+    <first>Jamie</first>
+    <last>the Weeh</last>
+  </person>
+</people>

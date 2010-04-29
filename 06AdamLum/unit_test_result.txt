@@ -1,0 +1,27 @@
+Loaded suite test_transformer
+Started
+FFF
+Finished in 0.047 seconds.
+
+  1) Failure:
+test_source1(TransformerTest)
+    [test_transformer.rb:12:in `stub_method'
+     test_transformer.rb:16:in `test_source1']:
+<"<?xmlversion=\"1.0\"?><people><person><name><first>Winnie</first><last>thePooh</last></name></person><person><name><first>Jamie</first><last>theWeeh</last></name></person></people>"> expected but was
+<"<?xmlversion=\"1.0\"?><People><Person><Name><first>Winnie</first><last>thePooh</last></Name></Person><Person><Name><first>Jamie</first><last>theWeeh</last></Name></Person></People>">.
+
+  2) Failure:
+test_source2(TransformerTest)
+    [test_transformer.rb:12:in `stub_method'
+     test_transformer.rb:20:in `test_source2']:
+<"<?xmlversion=\"1.0\"?><people><person><name><first>Winnie</first><last>thePooh</last></name></person><person><name><first>Jamie</first><last>theWeeh</last></name></person></people>"> expected but was
+<"<?xmlversion=\"1.0\"?><People><Person><Name><first>Winnie</first><last>thePooh</last></Name></Person><Person><Name><first>Jamie</first><last>theWeeh</last></Name></Person></People>">.
+
+  3) Failure:
+test_source3(TransformerTest)
+    [test_transformer.rb:12:in `stub_method'
+     test_transformer.rb:24:in `test_source3']:
+<"<?xmlversion=\"1.0\"?><people><person><name><first>Winnie</first><last>thePooh</last></name></person><person><name><first>Jamie</first><last>theWeeh</last></name></person></people>"> expected but was
+<"<?xmlversion=\"1.0\"?><People><Person><Name><first>Winnie</first><last>thePooh</last></Name></Person><Person><Name><first>Jamie</first><last>theWeeh</last></Name></Person></People>">.
+
+3 tests, 3 assertions, 3 failures, 0 errors
